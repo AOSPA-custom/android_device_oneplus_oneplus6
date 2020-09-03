@@ -97,6 +97,9 @@ TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+#Prebuilt TWRP
+TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := recovery/twrp/device/oneplus/oneplus6/ramdisk-recovery.cpio
+
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
